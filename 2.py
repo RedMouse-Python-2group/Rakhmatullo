@@ -23,7 +23,7 @@
 #     if len(i) > len(n):
 #         n = i
 # print('The longest word is: ', n)
-# Laba 2.3
+# #Laba 2.3
 # x = raw_input("Enter sign:")
 # st = raw_input("Enter str:  ")
 # st = st.split(x)
@@ -32,14 +32,6 @@
 #     if len(i) > len(n):
 #         n = i
 # print('The longest word is: ', n)
-# Laba 2.4
-# x = raw_input("Enter sign: ")
-# st = raw_input("Enter str: ")
-# st = st.split(x)
-# #n = x
-# for i in st:
-#     if len(i) == len():
-#         n = i
-# print('=: ', n)
-#
-
+# Laba 2.5
+st = raw_input('Enter string: ')
+print(len(st.split(' ')))
